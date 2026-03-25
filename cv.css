@@ -47,16 +47,26 @@ section {
 
 
 .aboutMe .column img {
-    margin-left: 4rem;
-    width: 80%;
-    height: 35rem;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 20rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 4rem;
+    object-fit: cover;
 }
 
 .aboutMe .column .content1 {
     flex: 1 1 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.img-contact {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+    gap: 3rem; 
+    margin-bottom: 2rem; /* Education ile arasına biraz boşluk koyalım */
 }
 
 .aboutMe .column .title {
@@ -69,7 +79,7 @@ section {
 }
 
 .aboutMe .column .content2 {
-    flex: 1 1 25rem;
+    flex: 1 1 8rem;
 }
 
 .aboutMe .column p {
@@ -84,9 +94,14 @@ section {
     font-size: 1.5rem;
 }
 
+.aboutMe .column .contact{
+    margin-top: 2rem;
+}
+
 .aboutMe .column .contact .contact-type {
     margin-bottom: 1.2rem;
     font-size: 1.7rem;
+    margin-top: 1.2rem;
 
 }
 
